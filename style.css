@@ -84,6 +84,13 @@ p {
 .btn-dark {
   background: #333;
   color: #fff;
+  display: inline-block;
+  color: white;
+  background: #000000;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+    
 }
 
 .bg-light {
@@ -94,6 +101,7 @@ p {
 .bg-dark {
   background: #333;
   color: #f4f4f4;
+  
 }
 
 .list {
@@ -280,6 +288,7 @@ p {
 
 .btn {
   font-size: 1em;
+  
 }
 
 
