@@ -35,6 +35,7 @@ p {
 .text-primary {
   color: #ff8d0c;
 }
+
 .text-group {
   color: #ffffff;
 }
@@ -90,7 +91,7 @@ p {
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
-    
+
 }
 
 .bg-light {
@@ -101,7 +102,7 @@ p {
 .bg-dark {
   background: #333;
   color: #f4f4f4;
-  
+
 }
 
 .list {
@@ -126,8 +127,8 @@ p {
   display: flex;
   justify-content: space-between;
   z-index: 1;
-   background-color:transparent;
- 
+  background-color: transparent;
+
   position: fixed;
   width: 100%;
   top: 0;
@@ -153,7 +154,7 @@ p {
 
 #navbar .logo {
   cursor: pointer;
-  
+
 }
 
 /* Showcase */
@@ -174,7 +175,7 @@ p {
   padding: 0 2rem;
   /* Overlay DIV Showcase-content */
   position: absolute;
-  top:;
+  top: ;
   left: 0;
   right: 0;
   bottom: 0;
@@ -188,18 +189,18 @@ p {
   padding: 1rem;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
-  
+
 }
 
 .item {
-  
+
   flex: 1;
   text-align: center;
   padding: 1rem;
   transition: 1s;
- 
-  
-  
+
+
+
 }
 
 
@@ -208,26 +209,40 @@ p {
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
-  cursor: pointer; 
+  cursor: pointer;
   color: rgb(0, 0, 0);
 
- 
+
 }
 
 
 
-.items:hover .item {
+
+.item:hover {
+  -webkit-transform: scale(1);
+  -ms-ransform: scale(1);
+  transform: scale(1.1);
+}
+
+.item2:hover {
+  -webkit-transform: scale(1);
+  -ms-ransform: scale(1);
+  transform: scale(1.1);
+}
+
+.item3:hover {
   -webkit-transform: scale(1);
   -ms-ransform: scale(1);
   transform: scale(1.1);
 }
 
 
-  a {
-    text-decoration: none;
-    color: #333; }
-  
-  
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
 /* Who We Are Section */
 
 #who {
@@ -288,13 +303,13 @@ p {
 
 .btn {
   font-size: 1em;
-  
+
 }
 
 
 
 /* button up */
-.btn2{
+.btn2 {
   position: fixed;
   width: 50px;
   height: 50px;
@@ -311,7 +326,71 @@ p {
 }
 
 
+/* What we do +  */
+
+.item2 {
+
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  transition: 1s;
+
+
+
+}
+
+
+#what .items .item2 i {
+  background: #ff8d0c;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+
+}
 
 
 
 
+.item2:hover {
+  -webkit-transform: scale(1);
+  -ms-ransform: scale(1);
+  transform: scale(1.1);
+}
+
+
+
+
+.item3 {
+
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+  transition: 1s;
+
+
+
+}
+
+
+#what .items .item3 i {
+  background: #ff8d0c;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+.item3:hover {
+  -webkit-transform: scale(1);
+  -ms-ransform: scale(1);
+  transform: scale(1.1);
+}
